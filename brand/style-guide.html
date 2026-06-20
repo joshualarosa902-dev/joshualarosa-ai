@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>joshualarosa.ai — brand style guide</title>
+<link rel="stylesheet" href="tokens.css">
+<link rel="stylesheet" href="components.css">
+<style>
+  section { padding: var(--s-7) 0; border-bottom: 1px solid var(--c-line); }
+  .lead { font-size: var(--t-eyebrow); letter-spacing: var(--track-eyebrow); text-transform: uppercase; color: var(--c-muted); margin: 0 0 var(--s-5); font-weight: 500; }
+  .grid { display: flex; flex-wrap: wrap; gap: var(--s-5); align-items: flex-start; }
+  .sw { width: 132px; }
+  .sw .chip { height: 64px; border-radius: var(--r-md); border: 1px solid var(--c-line); }
+  .sw b { display: block; font-weight: 500; font-size: var(--t-small); margin-top: 10px; }
+  .sw span { font-size: var(--t-eyebrow); color: var(--c-muted); letter-spacing: 0.02em; }
+  .row { display: flex; align-items: baseline; gap: var(--s-5); flex-wrap: wrap; margin-bottom: var(--s-4); }
+  .row .lab { font-size: var(--t-eyebrow); letter-spacing: 0.1em; text-transform: uppercase; color: var(--c-muted); width: 120px; }
+</style>
+</head>
+<body>
+
+<header class="wrap" style="display:flex;align-items:center;justify-content:space-between;padding-top:var(--s-5);padding-bottom:var(--s-5)">
+  <div style="font-family:var(--font-display);font-weight:600;font-size:24px;letter-spacing:-.02em">joshualarosa<span style="color:var(--c-yellow)">.ai</span></div>
+  <div class="eyebrow">brand system · v2 · 2026-06-16</div>
+</header>
+
+<!-- HERO (light, editorial) -->
+<section style="border:none;padding-top:var(--s-7)">
+  <div class="wrap">
+    <p class="eyebrow" style="margin-bottom:var(--s-5)">Resource library</p>
+    <h1 class="hero" style="max-width:640px">Everything I use to <span class="serif und">build</span>,<br>quietly organized.</h1>
+    <p style="max-width:440px;color:var(--c-muted);margin-top:var(--s-5);font-size:var(--t-h3);line-height:1.55">Guides, prompts and playbooks from the videos. Free, and always here.</p>
+    <div style="margin-top:var(--s-6);display:flex;gap:var(--s-5);align-items:center;flex-wrap:wrap">
+      <a class="btn-accent">Start here <span>→</span></a>
+      <a class="btn-link">Browse resources</a>
+    </div>
+  </div>
+</section>
+
+<!-- PALETTE -->
+<section class="wrap">
+  <p class="lead">01 — palette</p>
+  <div class="grid">
+    <div class="sw"><div class="chip" style="background:var(--c-yellow)"></div><b>signal yellow</b><span>#EBC400 · accent</span></div>
+    <div class="sw"><div class="chip" style="background:var(--c-ink)"></div><b>ink</b><span>#16130B · text</span></div>
+    <div class="sw"><div class="chip" style="background:var(--c-soft-black)"></div><b>soft black</b><span>#0E0E0E · dark hero</span></div>
+    <div class="sw"><div class="chip" style="background:var(--c-bone)"></div><b>bone</b><span>#FAF8F3 · page</span></div>
+    <div class="sw"><div class="chip" style="background:var(--c-white)"></div><b>white</b><span>#FFFFFF · cards</span></div>
+    <div class="sw"><div class="chip" style="background:var(--c-muted)"></div><b>muted</b><span>#8C857A · captions</span></div>
+  </div>
+</section>
+
+<!-- TYPE -->
+<section class="wrap">
+  <p class="lead">02 — typography</p>
+  <div class="row"><span class="lab">display · geist</span><span class="display" style="font-size:var(--t-h1)">Build in public</span></div>
+  <div class="row"><span class="lab">serif accent</span><span class="serif" style="font-size:var(--t-h1)">the quiet part</span></div>
+  <div class="row"><span class="lab">h3 · geist 600</span><span style="font-weight:600;font-size:var(--t-h3)">Section heading</span></div>
+  <div class="row"><span class="lab">body · geist 400</span><span style="max-width:480px">Body copy stays calm and highly readable across long PDFs — the workhorse for resource pages and guides.</span></div>
+  <div class="row"><span class="lab">eyebrow</span><span class="eyebrow">Resources · prompts · playbooks</span></div>
+</section>
+
+<!-- WORDMARK -->
+<section class="wrap">
+  <p class="lead">03 — wordmark & monogram</p>
+  <div class="grid" style="align-items:center;gap:var(--s-7)">
+    <div style="font-family:var(--font-display);font-weight:600;font-size:38px;letter-spacing:-.02em">joshualarosa<span style="color:var(--c-yellow)">.ai</span></div>
+    <div style="border:1px solid var(--c-line);width:64px;height:64px;border-radius:var(--r-lg);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:600;font-size:24px"><span>JL</span><span style="color:var(--c-yellow)">.</span></div>
+  </div>
+</section>
+
+<!-- BUTTONS + ACCENTS -->
+<section class="wrap">
+  <p class="lead">04 — buttons & accents</p>
+  <div class="grid" style="align-items:center">
+    <a class="btn-accent">Start here <span>→</span></a>
+    <a class="btn-ghost">Work with me</a>
+    <a class="btn-link">Download <span class="arrow">↓</span></a>
+    <span style="display:inline-flex;align-items:center;gap:8px"><span class="dot"></span><span class="eyebrow" style="margin:0">accent dot</span></span>
+    <span class="display" style="font-size:var(--t-h3)">a <span class="serif und">single</span> underline</span>
+  </div>
+</section>
+
+<!-- RESOURCE CARDS -->
+<section class="wrap">
+  <p class="lead">05 — resource cards</p>
+  <div class="grid">
+    <div class="card">
+      <span class="label"><span class="dot"></span>PDF · 12 pp</span>
+      <div class="card__title">The AI hook vault</div>
+      <p class="card__desc">50 openers that stop the scroll.</p>
+      <a class="btn-link">Download <span class="arrow">↓</span></a>
+    </div>
+    <div class="card">
+      <span class="label"><span class="dot"></span>Playbook</span>
+      <div class="card__title">Founder story formula</div>
+      <p class="card__desc">The structure behind every viral edit.</p>
+      <a class="btn-link">Download <span class="arrow">↓</span></a>
+    </div>
+    <div class="card">
+      <span class="label"><span class="dot"></span>Prompt pack</span>
+      <div class="card__title">Daily content engine</div>
+      <p class="card__desc">Ideas, hooks and scripts on tap.</p>
+      <a class="btn-link">Download <span class="arrow">↓</span></a>
+    </div>
+  </div>
+</section>
+
+<!-- DARK MOMENT (sibling link) -->
+<section class="surface-dark" style="border:none">
+  <div class="wrap">
+    <p class="eyebrow" style="margin-bottom:var(--s-5)">AI<span style="color:var(--c-yellow)"> · </span>systems<span style="color:var(--c-yellow)"> · </span>leverage</p>
+    <h2 class="display" style="font-size:var(--t-h1);max-width:560px">The system behind<br>the <span style="color:var(--c-yellow)">content</span>.</h2>
+    <p style="color:var(--c-muted-dark);max-width:420px;margin-top:var(--s-5)">A refined dark moment for the hero — and the visual bridge to the Building Leverage podcast.</p>
+    <div style="margin-top:var(--s-5);display:flex;gap:var(--s-5);align-items:center">
+      <a class="btn-accent">Listen to the pod <span>→</span></a>
+      <a class="btn-link" style="border-color:#F4F1EA">Newsletter</a>
+    </div>
+  </div>
+</section>
+
+<footer class="wrap" style="padding:var(--s-6) var(--s-6);color:var(--c-muted)">
+  <span class="eyebrow">joshualarosa.ai · quiet editorial · siblings with building leverage</span>
+</footer>
+
+</body>
+</html>

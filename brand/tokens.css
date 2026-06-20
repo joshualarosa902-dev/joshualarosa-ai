@@ -1,0 +1,70 @@
+/* joshualarosa.ai — design tokens (single source of truth) */
+/* Direction: quiet editorial. Light-led, warm neutrals, yellow as a scalpel accent. */
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Instrument+Serif:ital@0;1&display=swap');
+
+:root {
+  /* color primitives — warm, editorial */
+  --c-yellow: #EBC400;       /* signature accent — used sparingly */
+  --c-yellow-bright: #F2DE00;/* podcast sibling lemon — reference only */
+  --c-bone: #FAF8F3;         /* primary page background */
+  --c-white: #FFFFFF;        /* cards / raised surfaces */
+  --c-ink: #16130B;          /* warm near-black — text */
+  --c-soft-black: #0E0E0E;   /* dark surface (hero moments) */
+  --c-muted: #8C857A;        /* secondary text on light */
+  --c-line: #E7E2D6;         /* hairlines on light */
+  --c-muted-dark: #8E8A82;   /* secondary text on dark */
+  --c-line-dark: #262420;    /* hairlines on dark */
+  --c-surface-dark: #161513; /* cards on dark */
+
+  /* semantic aliases — flip per surface */
+  --bg: var(--c-bone);
+  --surface: var(--c-white);
+  --text: var(--c-ink);
+  --text-muted: var(--c-muted);
+  --line: var(--c-line);
+  --accent: var(--c-yellow);
+
+  /* type */
+  --font-display: 'Geist', system-ui, sans-serif;
+  --font-ui: 'Geist', system-ui, sans-serif;
+  --font-body: 'Geist', system-ui, sans-serif;
+  --font-serif: 'Instrument Serif', Georgia, serif; /* editorial italic accents */
+
+  /* type scale — restrained */
+  --t-hero: clamp(34px, 5.5vw, 60px);
+  --t-h1: clamp(28px, 4vw, 44px);
+  --t-h2: clamp(22px, 3vw, 32px);
+  --t-h3: 18px;
+  --t-body: 16px;
+  --t-small: 13px;
+  --t-eyebrow: 11px;
+
+  /* weights — premium leans light */
+  --w-reg: 400;
+  --w-med: 500;
+  --w-semi: 600;
+
+  /* radius — soft, not chunky */
+  --r-sm: 6px;
+  --r-md: 8px;
+  --r-lg: 14px;
+
+  /* spacing — generous */
+  --s-1: 4px; --s-2: 8px; --s-3: 12px; --s-4: 16px;
+  --s-5: 24px; --s-6: 40px; --s-7: 64px; --s-8: 96px;
+
+  /* tracking */
+  --track-tight: -0.02em;
+  --track-eyebrow: 0.2em;
+
+  --maxw: 1080px;
+}
+
+/* dark surface context — refined hero moment, NO scanlines */
+.surface-dark {
+  --bg: var(--c-soft-black);
+  --surface: var(--c-surface-dark);
+  --text: #F4F1EA;
+  --text-muted: var(--c-muted-dark);
+  --line: var(--c-line-dark);
+}

@@ -1,0 +1,13 @@
+node_modules
+.next
+out
+.env.local
+.env*.local
+.DS_Store
+*.log
+.vercel
+next-env.d.ts
+
+# local build artifacts (PDFs live in Supabase, not the repo)
+rebrand/
+public/sample/

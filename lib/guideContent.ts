@@ -1,10 +1,12 @@
 // Readable web content for resource pages — enables the "metered paywall" teaser.
-// `teaser` shows free; `rest` is revealed after the email gate. (Per-slug; more added
-// during the legacy landing-page rebrand.)
+// `teaser` shows free; `rest` is revealed after the email gate.
+// The 33 legacy guides are auto-extracted into guideContent.json (scripts/extract_guides.py);
+// Smart Shot is hand-written below and overrides any generated entry.
+import generated from "./guideContent.json";
+
 export type GuideContent = { teaser: string; rest: string };
 
-export const GUIDE_CONTENT: Record<string, GuideContent> = {
-  "smart-shot-openart": {
+const SMART_SHOT: GuideContent = {
     teaser: `
       <p class="lede">OpenArt just put the two best AI models on the planet into one tool called Smart Shot — and it's the first one that actually <em>directs</em>.</p>
       <h3>Two models. One that finally directs.</h3>
@@ -40,5 +42,9 @@ export const GUIDE_CONTENT: Record<string, GuideContent> = {
         <li><strong>The identity close —</strong> "A creator looks straight down the lens and says one line; 50mm dead-center, shallow depth, a single practical light blooming behind."</li>
       </ol>
     `,
-  },
+};
+
+export const GUIDE_CONTENT: Record<string, GuideContent> = {
+  ...(generated as Record<string, GuideContent>),
+  "smart-shot-openart": SMART_SHOT,
 };

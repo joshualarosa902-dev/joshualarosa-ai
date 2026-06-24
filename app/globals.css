@@ -83,7 +83,9 @@ button { font: inherit; }
 }
 
 /* layout helpers */
-.section { padding: var(--s-7) 0; }
+/* padding-block only — never the `padding` shorthand, or it would zero out
+   the horizontal gutters that .wrap sets on the same element (.wrap.section). */
+.section { padding-block: var(--s-7); }
 .grid-cards {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
@@ -176,7 +178,7 @@ button { font: inherit; }
 @media (max-width: 640px) {
   .mk-pstats { grid-template-columns: repeat(2, 1fr); gap: var(--s-4); }
   .wrap { padding: 0 18px; }
-  .section { padding: var(--s-6) 0; }
+  .section { padding-block: var(--s-6); }
   .mk-dark { padding: var(--s-6) 20px; }
   .mk-panel { padding: var(--s-5) 18px; }
 }

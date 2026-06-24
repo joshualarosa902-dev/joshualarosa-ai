@@ -34,15 +34,9 @@ export default function Nav() {
               {l.label}
             </Link>
           ))}
-          <a
-            href="https://www.passionfroot.me/joshualarosaai"
-            target="_blank"
-            rel="noopener"
-            className="btn-ghost"
-            onClick={() => setOpen(false)}
-          >
+          <Link href="/media-kit" className="btn-ghost" onClick={() => setOpen(false)}>
             Work with me
-          </a>
+          </Link>
         </div>
       </nav>
     </header>

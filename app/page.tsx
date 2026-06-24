@@ -81,11 +81,11 @@ export default async function Home() {
             Brand partnerships &amp; collabs.
           </h2>
           <p style={{ maxWidth: 420, color: "var(--c-muted)", margin: "var(--s-4) 0 var(--s-5)" }}>
-            Storytelling videos on founders, products and AI. Rates and past work in the media kit.
+            Storytelling videos on founders, products and AI. Audience and past work in the media kit.
           </p>
-          <a href="https://www.passionfroot.me/joshualarosaai" target="_blank" rel="noopener" className="btn-link">
+          <Link href="/media-kit" className="btn-link">
             View media kit <span className="arrow">→</span>
-          </a>
+          </Link>
         </section>
       </main>
       <Footer />

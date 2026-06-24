@@ -11,7 +11,7 @@ const DATA = {
   tagline: "Giving young people leverage in the age of AI.",
   blurb:
     "I'm Joshua LaRosa (@joshualarosa.ai). I help the next generation actually use AI — students, young founders, and anyone willing to learn, young or old — and apply it in real life: in school, in college, in business, in building a future most people aren't ready for. The mission is simple: give people leverage in a world being rewritten by AI, taught in a way that feels organic, not like a textbook.",
-  email: "joshualarosa902@gmail.com",
+  email: "josh@joshualarosai.com",
   stats: [
     { n: "82.7K", l: "Total followers" },
     { n: "8.6%", l: "Engagement · top 25%" },

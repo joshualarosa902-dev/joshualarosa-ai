@@ -102,7 +102,7 @@ export default function MediaKit() {
 
         {/* THE ANGLE — the story that makes it convert */}
         <section className="wrap section">
-          <div style={{ background: "var(--c-ink)", color: "#F4F1EA", borderRadius: "var(--r-lg)", padding: "var(--s-8) var(--s-7)" }}>
+          <div className="mk-dark" style={{ background: "var(--c-ink)", color: "#F4F1EA", borderRadius: "var(--r-lg)" }}>
             <p className="eyebrow" style={{ color: "var(--c-yellow)", marginBottom: "var(--s-5)" }}>Why it converts</p>
             <p style={{ fontSize: "var(--t-h1)", fontFamily: "var(--font-display)", fontWeight: 500, letterSpacing: "-0.02em", lineHeight: 1.18, maxWidth: 820, color: "#fff" }}>
               Most AI content is a tutorial. Mine is a <span className="serif" style={{ color: "var(--c-yellow)" }}>feeling</span>.
@@ -172,7 +172,7 @@ export default function MediaKit() {
 
         {/* CONTACT */}
         <section className="wrap section">
-          <div style={{ background: "var(--c-ink)", borderRadius: "var(--r-lg)", padding: "var(--s-8) var(--s-7)", color: "#F4F1EA" }}>
+          <div className="mk-dark" style={{ background: "var(--c-ink)", borderRadius: "var(--r-lg)", color: "#F4F1EA" }}>
             <p className="eyebrow" style={{ color: "var(--c-yellow)", marginBottom: "var(--s-4)" }}>Let&apos;s work together</p>
             <h2 className="display" style={{ fontSize: "var(--t-h1)", color: "#fff", maxWidth: 620, textTransform: "none" }}>Tell me what you&apos;re launching.</h2>
             <p style={{ color: "#b9b4aa", maxWidth: 460, margin: "var(--s-4) 0 var(--s-5)", lineHeight: 1.6 }}>Brand deals, founder features, and collaborations. I reply to every serious inquiry.</p>

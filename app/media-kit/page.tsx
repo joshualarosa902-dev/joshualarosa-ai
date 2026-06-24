@@ -8,9 +8,9 @@ export const metadata: Metadata = {
 };
 
 const DATA = {
-  tagline: "AI storytelling that makes people feel something.",
+  tagline: "Giving young people leverage in the age of AI.",
   blurb:
-    "I'm Joshua LaRosa (@joshualarosa.ai) — an AI & tech creator making personality-first videos about AI, founders, and building with leverage, across Instagram, TikTok, YouTube, Twitter, Twitch and Facebook, plus the Building Leverage podcast. Brands work with me because the audience trusts the story, not just the stat.",
+    "I'm Joshua LaRosa (@joshualarosa.ai). I help the next generation actually use AI — students, young founders, and anyone willing to learn, young or old — and apply it in real life: in school, in college, in business, in building a future most people aren't ready for. The mission is simple: give people leverage in a world being rewritten by AI, taught in a way that feels organic, not like a textbook.",
   email: "joshualarosa902@gmail.com",
   stats: [
     { n: "82.7K", l: "Total followers" },
@@ -32,7 +32,7 @@ const DATA = {
     { c: "🇺🇸 United States", pct: 48 }, { c: "🇮🇳 India", pct: 9 }, { c: "🇸🇪 Sweden", pct: 4 },
     { c: "🇬🇧 United Kingdom", pct: 3 }, { c: "🇨🇦 Canada", pct: 3 },
   ],
-  brands: ["Replit", "Lemon AI", "Merit Systems", "AgentCash", "August AI", "Mozie"],
+  brands: ["Higgsfield", "OpenArt", "ElevenLabs", "Replit", "Poppy AI"],
   formats: [
     "Founder & product storytelling videos",
     "Short-form AI explainers (Reels / TikTok / Shorts)",
@@ -74,6 +74,22 @@ export default function MediaKit() {
         {/* STATS */}
         <section className="wrap section">
           <div className="mk-stats">{DATA.stats.map((s) => <Stat key={s.l} n={s.n} l={s.l} />)}</div>
+        </section>
+
+        {/* AVG VIEWS CALLOUT — the headline selling point */}
+        <section className="wrap" style={{ paddingBottom: "var(--s-6)" }}>
+          <div style={{ background: "var(--c-ink)", color: "#F4F1EA", borderRadius: "var(--r-lg)", padding: "var(--s-8) var(--s-7)" }}>
+            <p className="eyebrow" style={{ color: "var(--c-yellow)", marginBottom: "var(--s-5)" }}>Reach that punches above its weight</p>
+            <div style={{ display: "flex", gap: "var(--s-7)", flexWrap: "wrap", alignItems: "flex-end" }}>
+              <div style={{ flex: "none" }}>
+                <div style={{ fontFamily: "var(--font-display)", fontWeight: 600, fontSize: "clamp(52px,9vw,92px)", lineHeight: 0.9, letterSpacing: "-0.03em", color: "#fff" }}>33.9K</div>
+                <div className="eyebrow" style={{ marginTop: 8 }}>average views / reel</div>
+              </div>
+              <p style={{ maxWidth: 520, color: "#b9b4aa", lineHeight: 1.65, fontSize: "var(--t-h3)" }}>
+                On just <strong style={{ color: "#fff" }}>43.3K followers</strong> — that&apos;s <span style={{ color: "var(--c-yellow)" }}>~80% of my entire audience watching every reel</span>, and <strong style={{ color: "#fff" }}>539.5K people reached every month</strong>, over <span style={{ color: "var(--c-yellow)" }}>12&times; my follower count</span>. The content travels far past the follower number.
+              </p>
+            </div>
+          </div>
         </section>
 
         {/* PLATFORMS */}
@@ -130,6 +146,7 @@ export default function MediaKit() {
           <p className="eyebrow" style={{ marginBottom: "var(--s-5)" }}>Trusted by</p>
           <div className="mk-brands">
             {DATA.brands.map((b) => <div key={b} className="mk-brand">{b}</div>)}
+            <div className="mk-brand" style={{ color: "var(--c-muted)", borderStyle: "dashed" }}>+ hundreds more</div>
           </div>
         </section>
 

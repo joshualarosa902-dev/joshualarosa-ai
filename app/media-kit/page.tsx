@@ -69,7 +69,7 @@ export default function MediaKit() {
           <div style={{ borderTop: "1px solid var(--c-line)", borderBottom: "1px solid var(--c-line)", padding: "var(--s-7) 0", display: "flex", gap: "var(--s-7)", alignItems: "center", flexWrap: "wrap" }}>
             <div style={{ flex: "none" }}>
               <p className="eyebrow" style={{ marginBottom: "var(--s-3)" }}>Total following</p>
-              <div style={{ fontFamily: "var(--font-display)", fontWeight: 600, fontSize: "clamp(64px,12vw,128px)", letterSpacing: "-0.04em", lineHeight: 0.85, color: "var(--c-ink)" }}>82.7K</div>
+              <div style={{ fontFamily: "var(--font-display)", fontWeight: 600, fontSize: "clamp(52px,12vw,120px)", letterSpacing: "-0.04em", lineHeight: 0.85, color: "var(--c-ink)" }}>82.7K</div>
             </div>
             <p style={{ maxWidth: 440, color: "var(--c-muted)", lineHeight: 1.65, fontSize: "var(--t-h3)" }}>
               {DATA.total.note}

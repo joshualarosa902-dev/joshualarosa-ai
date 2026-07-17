@@ -11,3 +11,4 @@ next-env.d.ts
 # local build artifacts (PDFs live in Supabase, not the repo)
 rebrand/
 public/sample/
+.env*

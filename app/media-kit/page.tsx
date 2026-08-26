@@ -12,12 +12,12 @@ const DATA = {
   blurb:
     "I'm Joshua LaRosa (@joshualarosa.ai). I help the next generation actually use AI — students, young founders, and anyone willing to learn, young or old — and apply it in real life: in school, in college, in business, in building a future most people aren't ready for. The mission is simple: give people leverage in a world being rewritten by AI, taught in a way that feels organic, not like a textbook.",
   email: "josh@joshualarosai.com",
-  total: { n: "82.7K", note: "across Instagram & TikTok — plus 6.2K newsletter subscribers, and a far larger audience who watch without ever following." },
+  total: { n: "88.1K", note: "across Instagram & TikTok — plus 6.2K newsletter subscribers, and a far larger audience who watch without ever following." },
   platforms: [
     {
       name: "Instagram", tag: "The engine", handle: "@joshualarosa.ai", href: "https://www.instagram.com/joshualarosa.ai",
-      stats: [{ n: "43.3K", l: "Followers" }, { n: "8.6%", l: "Engagement · top 25%" }, { n: "33.9K", l: "Avg views / reel" }, { n: "539.5K", l: "Reach / month" }],
-      story: "Reels average 33.9K views on 43.3K followers — nearly my whole audience watching every single post — and 539.5K people are reached a month, 12× my following. An 8.6% engagement rate puts me in the top 25% of creators my size. Most don't come close.",
+      stats: [{ n: "48.7K", l: "Followers" }, { n: "8.6%", l: "Engagement · top 25%" }, { n: "33.9K", l: "Avg views / reel" }, { n: "539.5K", l: "Reach / month" }],
+      story: "Reels average 33.9K views on 48.7K followers — nearly my whole audience watching every single post — and 539.5K people are reached a month, 12× my following. An 8.6% engagement rate puts me in the top 25% of creators my size. Most don't come close.",
     },
     {
       name: "TikTok", tag: "Fast growth", handle: "@josh_larosa", href: "https://www.tiktok.com/@josh_larosa",
@@ -69,7 +69,7 @@ export default function MediaKit() {
           <div style={{ borderTop: "1px solid var(--c-line)", borderBottom: "1px solid var(--c-line)", padding: "var(--s-7) 0", display: "flex", gap: "var(--s-7)", alignItems: "center", flexWrap: "wrap" }}>
             <div style={{ flex: "none" }}>
               <p className="eyebrow" style={{ marginBottom: "var(--s-3)" }}>Total following</p>
-              <div style={{ fontFamily: "var(--font-display)", fontWeight: 600, fontSize: "clamp(52px,12vw,120px)", letterSpacing: "-0.04em", lineHeight: 0.85, color: "var(--c-ink)" }}>82.7K</div>
+              <div style={{ fontFamily: "var(--font-display)", fontWeight: 600, fontSize: "clamp(52px,12vw,120px)", letterSpacing: "-0.04em", lineHeight: 0.85, color: "var(--c-ink)" }}>88.1K</div>
             </div>
             <p style={{ maxWidth: 440, color: "var(--c-muted)", lineHeight: 1.65, fontSize: "var(--t-h3)" }}>
               {DATA.total.note}

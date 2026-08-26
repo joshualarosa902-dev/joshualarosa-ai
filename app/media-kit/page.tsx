@@ -12,7 +12,7 @@ const DATA = {
   blurb:
     "I'm Joshua LaRosa (@joshualarosa.ai). I help the next generation actually use AI — students, young founders, and anyone willing to learn, young or old — and apply it in real life: in school, in college, in business, in building a future most people aren't ready for. The mission is simple: give people leverage in a world being rewritten by AI, taught in a way that feels organic, not like a textbook.",
   email: "josh@joshualarosai.com",
-  total: { n: "88.1K", note: "across Instagram & TikTok — plus 6.2K newsletter subscribers, and a far larger audience who watch without ever following." },
+  total: { n: "88.1K", note: "across Instagram & TikTok — plus 8.3K newsletter subscribers, and a far larger audience who watch without ever following." },
   platforms: [
     {
       name: "Instagram", tag: "The engine", handle: "@joshualarosa.ai", href: "https://www.instagram.com/joshualarosa.ai",
@@ -26,8 +26,8 @@ const DATA = {
     },
     {
       name: "Newsletter", tag: "The direct line", handle: "Building Leverage · Substack", href: "https://substack.com/@buildingleveragepod",
-      stats: [{ n: "6.2K", l: "Subscribers" }, { n: "30%", l: "Open rate" }],
-      story: "6,200 readers at a 30% open rate — roughly double the industry average. The most direct, trusted line straight to my audience's inbox.",
+      stats: [{ n: "8.3K", l: "Subscribers" }, { n: "30%", l: "Open rate" }],
+      story: "8,300 readers at a 30% open rate — roughly double the industry average. The most direct, trusted line straight to my audience's inbox.",
     },
   ],
   age: [{ range: "18–24", pct: 33 }, { range: "25–34", pct: 34 }, { range: "35–44", pct: 15 }, { range: "45–54", pct: 9 }, { range: "55+", pct: 5 }],

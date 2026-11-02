@@ -19,7 +19,7 @@ const GUIDES = [
   {
     slug: "ai-interview-panel",
     title: "3 AI Interviewers: The Build Prompt + Setup (Claude Code + Fish Audio Drama 3)",
-    description: "The exact prompt I pasted into Claude Code to build an interview practice app where a Recruiter, a Hiring manager and a Coach challenge your answers out loud, each in their own Fish Audio Drama 3 voice. Plus the full setup, real costs and the 80%-off Drama 3 link.",
+    description: "My build prompt for Claude Code to make your own interview practice app where a Recruiter, a Hiring manager and a Coach challenge your answers out loud, each in their own Fish Audio Drama 3 voice. Plus the full setup, real costs and the 80%-off Drama 3 link.",
     whats_inside: [
       "The one build prompt for Claude Code",
       "The 15-minute setup, step by step",
@@ -32,7 +32,7 @@ const GUIDES = [
   {
     slug: "lecture-notes-podcast",
     title: "Lecture Notes → A Podcast That Quizzes You (Claude Code + Fish Audio Drama 3)",
-    description: "The exact prompt I pasted into Claude Code to build a study app that turns your lecture notes into a two-tutor podcast that stops to quiz you, voiced by Fish Audio Drama 3. Plus the full setup, real costs and the 80%-off Drama 3 link.",
+    description: "My build prompt for Claude Code to make your own study app that turns your lecture notes into a two-tutor podcast that stops to quiz you, voiced by Fish Audio Drama 3. Plus the full setup, real costs and the 80%-off Drama 3 link.",
     whats_inside: [
       "The one build prompt for Claude Code",
       "The 15-minute setup, step by step",
